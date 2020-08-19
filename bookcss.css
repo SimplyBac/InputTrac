@@ -1,0 +1,70 @@
+html,
+body,
+header,
+.view {
+  height: 80%;
+}
+
+.library h3 {
+    color: black;
+}
+
+.library h5{
+    text-align: center;
+    cursor: pointer;
+}
+.library h6{
+    text-align: center;
+    cursor: pointer;
+    float: top;
+}
+
+.library img{
+    width: 100%;
+    height: 75%;
+    
+
+
+}
+
+.container input{
+    max-width: 50%;
+    
+}
+
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+    
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 500px;
+    
+  }
+  
+}
+
+.card {
+  background-color: rgba(126, 123, 215, 0.2);
+
+}
+
+
+
+.md-form label {
+  color: #ffffff;
+}
+
+h6 {
+  line-height: 1.7;
+}
+
