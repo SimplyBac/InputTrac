@@ -4,6 +4,6 @@ function loginPage() {
 }
 
 function backHome(){
-    windows.location = "index.html"
-    
+    window.location = "index.html"
+
 }
