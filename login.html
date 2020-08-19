@@ -1,96 +1,107 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Input Trac</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
-        <script type="text/javascript" href="app.js"></script>
-        <link rel="stylesheet" href="dropdown.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-        <link rel="stylesheet" href="C:\Users\bryan\Desktop\Immersion Tracker\flag-icon-css-master\css\flag-icon.css">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>InputTrac</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="InputTrack.png" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="MDB-Free/css/bootstrap.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="MDB-Free/css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.genzpolyglot.com/">
+<meta property="og:title" content="InputTrac | Language Tracking">
+<meta property="og:description" content="InputTrac lets you track your speaking, reading, and listening with detailed statistics.">
+<meta property="og:image" content="https://prnt.sc/u1z2j5">
+
 </head>
-
-
 <body>
 
-    <button onclick="darkMode()">Toggle dark mode</button>
-    <form id="app-cover">
-                <div id="select-box">
-                        <input type="checkbox" id="options-view-button">
-                        <div id="select-button" class="brd">
-                                <div id="selected-value">
-                                    <span>Select a Language</span>
-                                </div>
-                                <div id="chevrons">
-                                        <i class="fas fa-chevron-up"></i>
-                                        <i class="fas fa-chevron-down"></i>
-                                </div>
-                        </div>
-                        <div id="options">
-                                <div class="option">
-                                        <input class="s-c top" type="radio" name="platform" value="Spanish">
-                                        <input class="s-c bottom" type="radio" name="platform" value="Spanish">
-                                        <i class="img-thumbnail flag flag-icon-background flag-icon-es"></i>
-                                        <span class="label">Spanish</span>
-                                        <span class="opt-val">Spanish</span>
-                                </div>
-                                <div class="option">
-                                        <input class="s-c top" type="radio" name="platform" value="Portuguese">
-                                        <input class="s-c bottom" type="radio" name="platform" value="Portuguese">
-                                        <i class="img-thumbnail flag flag-icon-background flag-icon-br"></i>
-                                        <span class="label">Portuguese</span>
-                                        <span class="opt-val">Portuguese</span>
-                                        
-                                </div>
-                                <div class="option">
-                                        <input class="s-c top" type="radio" name="platform" value="French">
-                                        <input class="s-c bottom" type="radio" name="platform" value="French">
-                                        <i class="img-thumbnail flag flag-icon-background flag-icon-fr"></i>
-                                        <span class="label">French</span>
-                                        <span class="opt-val">French</span>
-                                </div>
-                                <div class="option">
-                                        <input class="s-c top" type="radio" name="platform" value="German">
-                                        <input class="s-c bottom" type="radio" name="platform" value="German">
-                                        <i class="img-thumbnail flag flag-icon-background flag-icon-de"></i>
-                                        <span class="label">German</span>
-                                        <span class="opt-val">German</span>
-                                </div>
-                                <div class="option">
-                                        <input class="s-c top" type="radio" name="platform" value="Italian">
-                                        <input class="s-c bottom" type="radio" name="platform" value="Italian">
-                                        <i class="img-thumbnail flag flag-icon-background flag-icon-it"></i>
-                                        <span class="label">Italian</span>
-                                        <span class="opt-val">Italian</span>
-                                </div>
-                                <div class="option">
-                                        <input class="s-c top" type="radio" name="platform" value="Russian">
-                                        <input class="s-c bottom" type="radio" name="platform" value="Russian">
-                                        <i class="img-thumbnail flag flag-icon-background flag-icon-ru"></i>
-                                        <span class="label">Russian</span>
-                                        <span class="opt-val">Russian</span>
-                                </div>
-                                <div id="option-bg"></div>
-                                <input type="submit" value="Submit">
-                        </div>
-                </div>
-        </form>
-
-<a> 
-
+  <!-- Start your project here-->  
+  <div style="height: 90vh">
+    <div class="flex-center flex-column">
+      <h1 class="text-hide animated fadeIn mb-4" style="background-image: url('InputTrack2.png'); width: 251px; height: 240px;" >InputTrac</h1>
       
-<script>
-        function darkMode() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-  }
-</script> 
 
-    </body>
+      <!-- Default form register -->
+<form class="text-center border border-light p-5 animated fadeIn mb-4" action="#!" >
+
+  <p class="h4 mb-4" style="color:white">Register for InputTrac</p>
+
+  <div class="form-row mb-4">
+      <div class="col">
+          <!-- First name -->
+          <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+      </div>
+      <div class="col">
+          <!-- Last name -->
+          <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+      </div>
+  </div>
+
+  <!-- E-mail -->
+  <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+  <!-- Password -->
+  <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+  <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4" >
+      At least 8 characters and 1 digit
+  </small>
+
+  <!-- Sign up button -->
+  <button class="btn btn-info my-4 btn-block" type="submit">Sign in</button>
+
+  <!-- Social register -->
+  <p style="color:white"> or sign up with:</p>
+
+  <a href="#" class="mx-2" role="button"><i class="fab fa-facebook-f light-blue-text"></i></a>
+  <a href="#" class="mx-2" role="button"><i class="fab fa-twitter light-blue-text"></i></a>
+  <a href="#" class="mx-2" role="button"><i class="fab fa-linkedin-in light-blue-text"></i></a>
+  <a href="#" class="mx-2" role="button"><i class="fab fa-github light-blue-text"></i></a>
+
+  <hr>
+
+  <!-- Terms of service -->
+  <p style="color:white">By clicking
+      <em style="color:white">Sign up</em> you agree to our
+      <a href="" target="_blank">terms of service</a>
+
+</form>
+<!-- Default form register -->
+
+
+      <p class="animated fadeIn text-muted">Made by Bryan | Version 1.0</p>
+    </div>
+  </div>
+  <!-- End your project here-->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+
+
+
+
+
+</body>
 </html>
