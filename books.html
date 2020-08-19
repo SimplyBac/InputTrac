@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Input Trac</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script type="text/javascript" href="app.js"></script>
+    </head>
+
+
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
+            <a class="navbar-brand" href="#">
+              <img src="InputTrack.png" width="30" height="30" class="d-inline-block align-top" alt="">
+              InputTrac
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Books</a>
+                <a class="nav-item nav-link" href="#">Audio</a>
+                <a class="nav-item nav-link disabled" href="#">Disabled</a>
+              </div>
+            </div>
+          </nav>
+
+
+        <div class="form-group">
+            <label for="bookTitle"> Book Title</label>
+            <input type="text" class="form-control" id="bookTitle" placeholder="Book Title">
+            </div>
+
+            <div class="form-group">
+                <label for="bookAuthor"> Book Author</label>
+                <input type="text" class="form-control" id="bookAuthor" placeholder="Book Author">
+            </div>
+            <div class="form-group">
+            <label for="ISBN"> ISBN#</label>
+            <input type="text" class="form-control" id="isbn" placeholder="Enter ISBN">
+        </div>
+        <div class="form-row align-items-center">
+            <div class="col-auto my-1">
+              <label class="mr-sm-2" for="inlineFormCustomSelect">Select Language</label>
+              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                <option selected>Choose...</option>
+                <option value="1">Spanish</option>
+                <option value="2">Portuguese</option>
+                <option value="3">French</option>
+                <option value="4">Italian</option>
+                <option value="5">German</option>
+                <option value="6">Russian</option>
+              </select>
+            </div>
+            <div class="col-auto my-1">
+              <div class="custom-control custom-checkbox mr-sm-2">
+                <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                <label class="custom-control-label" for="customControlAutosizing">Remember my preference</label>
+              </div>
+            </div>
+            <div class="col-auto my-1">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+           
+
+    </body>
+</html>

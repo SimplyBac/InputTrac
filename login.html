@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Input Trac</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+        <script type="text/javascript" href="app.js"></script>
+        <link rel="stylesheet" href="dropdown.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+        <link rel="stylesheet" href="C:\Users\bryan\Desktop\Immersion Tracker\flag-icon-css-master\css\flag-icon.css">
+</head>
+
+
+<body>
+
+    <button onclick="darkMode()">Toggle dark mode</button>
+    <form id="app-cover">
+                <div id="select-box">
+                        <input type="checkbox" id="options-view-button">
+                        <div id="select-button" class="brd">
+                                <div id="selected-value">
+                                    <span>Select a Language</span>
+                                </div>
+                                <div id="chevrons">
+                                        <i class="fas fa-chevron-up"></i>
+                                        <i class="fas fa-chevron-down"></i>
+                                </div>
+                        </div>
+                        <div id="options">
+                                <div class="option">
+                                        <input class="s-c top" type="radio" name="platform" value="Spanish">
+                                        <input class="s-c bottom" type="radio" name="platform" value="Spanish">
+                                        <i class="img-thumbnail flag flag-icon-background flag-icon-es"></i>
+                                        <span class="label">Spanish</span>
+                                        <span class="opt-val">Spanish</span>
+                                </div>
+                                <div class="option">
+                                        <input class="s-c top" type="radio" name="platform" value="Portuguese">
+                                        <input class="s-c bottom" type="radio" name="platform" value="Portuguese">
+                                        <i class="img-thumbnail flag flag-icon-background flag-icon-br"></i>
+                                        <span class="label">Portuguese</span>
+                                        <span class="opt-val">Portuguese</span>
+                                        
+                                </div>
+                                <div class="option">
+                                        <input class="s-c top" type="radio" name="platform" value="French">
+                                        <input class="s-c bottom" type="radio" name="platform" value="French">
+                                        <i class="img-thumbnail flag flag-icon-background flag-icon-fr"></i>
+                                        <span class="label">French</span>
+                                        <span class="opt-val">French</span>
+                                </div>
+                                <div class="option">
+                                        <input class="s-c top" type="radio" name="platform" value="German">
+                                        <input class="s-c bottom" type="radio" name="platform" value="German">
+                                        <i class="img-thumbnail flag flag-icon-background flag-icon-de"></i>
+                                        <span class="label">German</span>
+                                        <span class="opt-val">German</span>
+                                </div>
+                                <div class="option">
+                                        <input class="s-c top" type="radio" name="platform" value="Italian">
+                                        <input class="s-c bottom" type="radio" name="platform" value="Italian">
+                                        <i class="img-thumbnail flag flag-icon-background flag-icon-it"></i>
+                                        <span class="label">Italian</span>
+                                        <span class="opt-val">Italian</span>
+                                </div>
+                                <div class="option">
+                                        <input class="s-c top" type="radio" name="platform" value="Russian">
+                                        <input class="s-c bottom" type="radio" name="platform" value="Russian">
+                                        <i class="img-thumbnail flag flag-icon-background flag-icon-ru"></i>
+                                        <span class="label">Russian</span>
+                                        <span class="opt-val">Russian</span>
+                                </div>
+                                <div id="option-bg"></div>
+                                <input type="submit" value="Submit">
+                        </div>
+                </div>
+        </form>
+
+<a> 
+
+      
+<script>
+        function darkMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+  }
+</script> 
+
+    </body>
+</html>

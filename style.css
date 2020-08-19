@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color:#EBEBE8;
+}
+html{
+    height:100%;
+    width:100%;
+    background-color:#EBEBE8;
+    
+}
+.dark-mode {
+    background-color: #141414;
+    color: EBEBE8;
+  }
+h1{
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 250%;
+}
+div {
+    padding:0px;
+
+}
+.button{
+    border: none;
+}
+.title{
+    font-size: 50px;
+}
+.footer {
+    font-size:10px;
+    position: absolute;
+    bottom: 0;
+}
+
+
